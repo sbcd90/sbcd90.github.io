@@ -1,0 +1,46 @@
+a:link	{
+    font-family: verdana;
+    font-size: 13px;
+    font-weight: normal;
+    color: brown;
+    text-decoration:none;
+}
+a:visited { color: blue; }
+a:hover	{ color: red; }
+a:active { color: lightblue; } 
+.Title{ 
+    top-margin:5px;
+    bottom-margin:5px;
+    font-family: arial-black;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+    border-bottom: 1px solid red;
+    border-top: 1px solid blue;
+}
+.Title2{ 
+    top-margin:5px;
+    bottom-margin:5px;
+    font-family: arial-black;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+    border-bottom: 1px solid red;
+    border-top: 1px solid blue;
+}
+.Project {
+    border-bottom: 1px solid #fffdfd;
+    border-top: 1px solid #fffdfd;
+    border-right: 1px solid #fffdfd;
+    border-left: 1px solid #fffdfd;
+    color:#EE4F1F;
+}
+table 	{ 
+    font-family: verdana;
+    font-size: 13px;
+}
+li{
+    padding-left:10px;
+    margin-right: 50px;
+    padding-right:200px;
+}
