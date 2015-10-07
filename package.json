@@ -13,7 +13,7 @@
   "keywords": [
     "jade",
     "personal",
-    "webpage"
+    "webpage"  
   ],
   "author": "Subhobrata Dey",
   "license": "ISC",
@@ -25,6 +25,8 @@
     "connect": "^3.3.5",
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-jade-tasks": "0.0.0"
+    "grunt-jade-tasks": "0.0.0",
+    "express": "^4.0.0",
+    "ejs": "^2.0.0"  
   }
 }
