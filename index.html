@@ -76,7 +76,7 @@ li{
                   <li>Amazon Web Services, Seattle, (Feb, 2022 - Present)</li></b></td>
             </tr>
             <tr>
-              <td width="600px">&nbsp;&nbsp;&nbsp;Software Development Engineer</td>
+              <td width="600px">&nbsp;&nbsp;&nbsp;Senior Software Engineer</td>
             </tr>
             <tr>
               <td><b>
@@ -142,10 +142,32 @@ li{
           <table width="90%" align="left" leftmargin="10px">
             <tr>
               <td><b>
+                  <li>Security Analytics plugin for OpenSearch</li></b></td>
+            </tr>
+            <tr>
+              <td width="1800px">&nbsp;&nbsp;&nbsp;Created the open-source Security Analytics plugin from scratch. Developed the core Sigma Rule Compiler which includes integrating ANTLR based Lexer, Parser based on ANTLR grammar & then generating the AST & finally resulting in sql like code generation.(<a href="https://github.com/opensearch-project/security-analytics/commit/806eae02b149543c5086bf17f183f1166f701e14">Sigma Rule Parser</a>, <a href="https://github.com/opensearch-project/security-analytics/commit/a87c5c38fe5f93214190b14c12737957ac1c6aa2">Sigma Rule Grammar, Parser, Code Generator</a>, <a href="https://github.com/opensearch-project/security-analytics/commit/cdf14959c6ba4308806eb4c267e3e3cadda8ee29">Sigma Rule Aggregation Code Generator</a>)</td>
+              <td 
+            </tr>
+            <tr>
+              <td width="600px"> <b>&nbsp;&nbsp;&nbsp;Technologies used :</b> Java<br/><br/></td>
+            </tr>
+            <tr>
+              <td><b>
+                  <li>Events Correlation Engine for Security Analytics</li></b></td>
+            </tr>
+            <tr>
+              <td width="1800px">&nbsp;&nbsp;&nbsp;Proposed the design of an events knowledge graph which can store graph based correlation between events. The design is described in github issues: <a href="https://github.com/opensearch-project/security-analytics/issues/369">Security Analytics Correlation Engine</a>, <a href="https://github.com/opensearch-project/OpenSearch/issues/6779">Events Correlation Engine</a> . Implemented the entire design on top of Apache Lucene <a href="https://github.com/opensearch-project/security-analytics/pull/405">here</a>.</td>
+              <td 
+            </tr>
+            <tr>
+              <td width="600px"> <b>&nbsp;&nbsp;&nbsp;Technologies used :</b> Java<br/><br/></td>
+            </tr>
+            <tr>
+              <td><b>
                   <li>Cloud Native Integration Agent in Eureka by SAP S/4Hana(Sep, 2019-current)</li></b></td>
             </tr>
             <tr>
-              <td width="600px">&nbsp;&nbsp;&nbsp;Tech Lead for a Hyperscaler agnostic K8S based serverless Cloud Native Integration Agent(part of ML data pipeline) to replicate data to cloud from different customer on-premise & cloud ERP & CRM systems. The replicated data is then used to train ML models. Responsible for managing the infrastructure of Integration Agent for initial customers.</td>
+              <td width="600px">&nbsp;&nbsp;&nbsp;Tech Lead for a Hyperscaler agnostic K8S based serverless Cloud Native Integration Agent(part of ML data pipeline) to replicate data to cloud from different customer on-premise & cloud ERP & CRM systems. The replicated data is then used to train ML models. Responsible for managing the infrastructure of Integration Agent for initial customers.<a href="https://github.com/kraken-repos/kraken-scheduler">link</a> to partial source code</td>
             </tr>
             <tr>
               <td width="600px"> <b>&nbsp;&nbsp;&nbsp;Technologies used :</b> K8S, Docker, C++, GoLang, Java, Python(for performance benchmark), HAProxy, Nginx ingress controller, Prometheus(monitoring), Loki(logging)<br/><br/></td>
@@ -294,7 +316,28 @@ li{
               </td>
             </tr>
             <tr>
-              <td width="600px"> <b>&nbsp;&nbsp;&nbsp;Technologies used :</b> Golang, Docker, Kubernetes<br/><br/></td>
+              <td><b>
+                  <li>siddhi-kafka-cep</li></b></td>
+            </tr>
+            <tr>
+              <td width="600px">
+                &nbsp;&nbsp;&nbsp;Here I wrote a simple CEP engine which is essentially a rule engine running on data streams. ( <a href="https://github.com/sbcd90/siddhi-kafka-cep">https://github.com/sbcd90/siddhi-kafka-cep</a> )
+              </td>
+            </tr>
+            <tr>
+              <td width="600px"> <b>&nbsp;&nbsp;&nbsp;Technologies used :</b> Java, Kafka streams<br/><br/></td>
+            </tr>
+            <tr>
+              <td><b>
+                  <li>Apache Spark Datasource for OrientDB</li></b></td>
+            </tr>
+            <tr>
+              <td width="600px">
+                &nbsp;&nbsp;&nbsp;Here I built an Apache Spark Datasource for a document & graph based store OrientDB which pushes Spark queries, Spark SQL queries down to OrientDB for better performance . ( <a href="https://github.com/orientechnologies/spark-orientdb">https://github.com/orientechnologies/spark-orientdb</a> )
+              </td>
+            </tr>
+            <tr>
+              <td width="600px"> <b>&nbsp;&nbsp;&nbsp;Technologies used :</b> Java, Apache Spark<br/><br/></td>
             </tr>
             <tr>
               <td><b>
@@ -321,6 +364,18 @@ li{
             </tr>
             <tr>
               <td width="600px"> <b>&nbsp;&nbsp;&nbsp;Technologies used :</b> Java<br/><br/>  </td>
+            </tr>
+            <tr>
+              <td><b>
+                  <li>SQL like DSL for OrientDB</li></b></td>
+            </tr>
+            <tr>
+              <td width="600px">
+                &nbsp;&nbsp;&nbsp;Here I built a SQL like dsl for OrientDB as part of the quill project. ( <a href="https://github.com/zio/zio-quill/pull/816">https://github.com/zio/zio-quill/pull/816</a> )
+              </td>
+            </tr>
+            <tr>
+              <td width="600px"> <b>&nbsp;&nbsp;&nbsp;Technologies used :</b> Java, Apache Spark<br/><br/></td>
             </tr>
             <tr>
               <td><b>
@@ -442,8 +497,13 @@ li{
           <table width="90%" align="left" leftmargin="10px">                   
             <tr>
               <td width="600px">
-                <li>&nbsp;&nbsp;&nbsp;Submitted Pull Requests to several open source projects <b>Spark, Flink, kafka-connect-jdbc, Spring, swift-java </b>
-                  <The>list of all contributions can be found in </The><a href="https://github.com/sbcd90">github<br/><br/></a>
+                <li>&nbsp;&nbsp;&nbsp;Submitted Pull Requests to  <b>Apache Spark </b> <a href="https://github.com/apache/spark/pull/12666">link</a>, <a href="https://github.com/apache/spark/pull/12458">link</a>, <a href="https://github.com/apache/spark/pull/12438">link</a>
+                </li>
+                <li>&nbsp;&nbsp;&nbsp;Submitted Pull Requests to  <b>Apache Bahir </b> <a href="https://github.com/apache/bahir/pull/38">link</a> </b>
+                </li>
+                <li>&nbsp;&nbsp;&nbsp;Submitted Pull Requests to  <b>kafka-connect-jdbc</b> <a href="https://github.com/confluentinc/kafka-connect-jdbc/pull/119">link</a> </b>
+                </li>
+                <li>&nbsp;&nbsp;&nbsp;One of the creators of <b>kafka-connect-hana </b> <a href="https://github.com/SAP/kafka-connect-sap/commits?author=sbcd90">link</a> </b>
                 </li>
               </td>
             </tr>
@@ -455,9 +515,16 @@ li{
           <div class="Title">Research</div>
           <table width="90%" align="left" leftmargin="10px">
             <tr>
-              <td width="600px">
-                <li>&nbsp;&nbsp;&nbsp;Patent titled <b>“Prediction of Planned Earned Values(BCWS) in Project Management using Artificial Neural Networks” </b>filed. <b>The ID of the patent application is 140501. </b>A US patent application has been filed with ID 82982841.<br/>
+              <td width="1800px">
+                <li>&nbsp;&nbsp;&nbsp;Patent titled <b>“PREDICTION OF PARAMETER VALUES IN PROJECT SYSTEMS” </b>filed. <a href="https://patents.justia.com/patent/20160110665">link</a><br/>
                   Here I did research on Artificial Neural Networks & how it can be applied in a prediction scenario in SAP Project Systems.<br/><br/>
+                </li>
+              </td>
+            </tr>
+            <tr>
+              <td width="600px">
+                <li>&nbsp;&nbsp;&nbsp;Patent titled <b>“APPLYING SCORING SYSTEMS USING AN AUTO-MACHINE LEARNING CLASSIFICATION APPROACH” </b>filed. <a href="https://patents.justia.com/patent/20200159690">link</a><br/>
+                  Here as part of the project team, was responsible for designing, developing & maintaining a Machine Learning framework which could train ML models & serve them. The system also provided auto feature generation capabilities for data scientists.<br/><br/>
                 </li>
               </td>
             </tr>
@@ -469,7 +536,7 @@ li{
           <div class="Title">Competitions</div>
           <table width="90%" align="left" leftmargin="10px">
             <tr>
-              <td width="600px">
+              <td width="1800px">
                 <li>&nbsp;&nbsp;&nbsp;Participated in Yahoo Open Hack Day 2012 & 2013 & was in top 10 in 2013. Hacks available in Github. ( <a href="https://github.com/sbcd90">https://github.com/sbcd90</a> )</li>
               </td>
             </tr>
@@ -486,21 +553,6 @@ li{
             <tr>
               <td width="600px">
                 <li>&nbsp;&nbsp;&nbsp;Contributed to Chromium by providing small bug fixes.</li>
-              </td>
-            </tr>
-            <tr>
-              <td width="600px">
-                <li>&nbsp;&nbsp;&nbsp;Participated in SAP Labs India 'What the Hack' & submitted apps successfully. Apps developed on node.js , mongodb Stack.</li>
-              </td>
-            </tr>
-            <tr>
-              <td width="600px">
-                <li>&nbsp;&nbsp;&nbsp;Highest rating of in Topcoder. User id is sbcd90. Blue</li>
-              </td>
-            </tr>
-            <tr>
-              <td width="600px">
-                <li>&nbsp;&nbsp;&nbsp;Solved over 200 problems in various algorithms & puzzle websites like SPOJ(user id is sbd90), Project Euler(user id is sbcd), puzzle up etc.        </li>
               </td>
             </tr>
           </table>
